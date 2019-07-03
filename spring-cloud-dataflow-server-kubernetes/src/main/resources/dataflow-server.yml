@@ -1,5 +1,13 @@
 server:
-  port: 9393
+  #port: 9393
+  port: 8443
+  ssl:
+    enabled: true
+    key-alias: dataflow
+    key-store: "scdfdataflow.keystore"
+    key-store-type: jks
+    key-store-password: dataflow
+    key-password: dataflow
 management:
   contextPath: /management
 info:
