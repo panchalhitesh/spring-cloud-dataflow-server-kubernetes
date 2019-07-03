@@ -48,6 +48,7 @@
 					<include>META-INF/*.properties</include>
 					<include>META-INF/spring.factories</include>
 					<include>dataflow-server.yml</include>
+					<include>scdfdataflow.keystore</include>
 				</includes>
 			</resource>
 		</resources>
